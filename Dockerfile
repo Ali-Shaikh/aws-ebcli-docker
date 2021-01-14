@@ -9,6 +9,7 @@ RUN apk --no-cache --update add \
         jq \
         git \
         curl \
+        gcc \
         python3 \
         py3-pip
 
