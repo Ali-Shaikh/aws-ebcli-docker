@@ -1,4 +1,4 @@
-FROM alpine
+FROM python:3-alpine
 
 LABEL maintainer="Ali Shaikh <me@alishaikh.net>"
 
@@ -8,10 +8,7 @@ RUN apk --no-cache --update add \
         groff \
         jq \
         git \
-        curl \
-        gcc \
-        python3 \
-        py3-pip
+        curl
 
 RUN pip install --upgrade pip \
         awsebcli \
