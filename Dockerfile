@@ -8,6 +8,7 @@ RUN apk --no-cache --update add \
         groff \
         jq \
         git \
+        gcc \
         curl
 
 RUN pip install --upgrade pip \
