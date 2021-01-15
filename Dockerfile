@@ -6,7 +6,7 @@ RUN apk add --no-cache --update --virtual .build-deps \
         build-base \
         libressl-dev \
         libffi-dev \
-        && RUN apk add --no-cache --update \
+        && apk add --no-cache --update \
         bash \
         less \
         groff \
